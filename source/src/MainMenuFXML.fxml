@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="600" style="-fx-background-image: url('./img1/backgroundMenu.png'); -fx-background-size: auto" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="MainMenuController">
+	<AnchorPane prefHeight="74.0" prefWidth="600.0">
+		<children>
+
+			<Label alignment="CENTER" layoutX="14.0" layoutY="9.0" text="Menu">
+				<font>
+					<Font name="Microsoft YaHei Bold" size="30.0" />
+				</font>
+				<textFill>
+					<RadialGradient centerX="0.4911111195882161" centerY="0.5" radius="0.7336448598130841">
+						<stops>
+							<Stop color="WHITE" />
+							<Stop color="WHITE" offset="0.007633587786259542" />
+							<Stop color="#fffcad" offset="1.0" />
+						</stops>
+					</RadialGradient>
+				</textFill>
+			</Label>
+		</children>
+	</AnchorPane>
+	<Button fx:id="startButton" onAction="#playGame" text="Play Game">
+		<font>
+			<Font name="System Bold" size="20.0" />
+		</font>
+	</Button>
+	<Button fx:id="leaderBoardButton" text="LeaderBoard" onAction="#getLeaderboard" />
+	<Button fx:id="exitButton" onAction="#closeProgram" text="Exit" />
+	<AnchorPane prefHeight="200.0" prefWidth="200.0">
+		<children>
+			<Label layoutX="141.0" layoutY="-7.0" prefHeight="137.0" prefWidth="430.0" text="LOST IN SPACE">
+				<font>
+					<Font name="Rockwell Nova Bold" size="44.0" />
+				</font>
+				<textFill>
+					<RadialGradient centerX="0.5177777608235677" centerY="0.496183191546957" focusDistance="-0.018691570959358583" radius="0.5654205874861958">
+						<stops>
+							<Stop color="#fff98b" />
+							<Stop color="#fd5c5c" offset="1.0" />
+						</stops>
+					</RadialGradient>
+				</textFill>
+			</Label>
+         <Label fx:id="messageDay" layoutX="5.0" layoutY="118.0" prefHeight="59.0" prefWidth="594.0" textFill="WHITE">
+            <font>
+               <Font name="System Bold" size="11.5" />
+            </font></Label>
+         <Button fx:id="messageButton" layoutY="90.0" mnemonicParsing="false" onAction="#displayMessage" text="Message Of The Day" />
+		</children>
+	</AnchorPane>
+
+</VBox>

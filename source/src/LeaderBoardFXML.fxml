@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity"
+	minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+	prefWidth="600.0" xmlns="http://javafx.com/javafx"
+	xmlns:fx="http://javafx.com/fxml" fx:controller="LeaderBoardController" style="-fx-background-image: url('./img1/starBackground.png'); -fx-background-size: 300;">
+	<children>
+		<ImageView fitHeight="400.0" fitWidth="600.0">
+			<image>
+				<Image url="@../../img1/starsBK.png" />
+			</image>
+		</ImageView>
+		<Circle fill="#0d6959" layoutX="233.0" layoutY="215.0"
+			radius="51.0" stroke="BLACK" strokeType="INSIDE" />
+		<Circle fill="#690d44" layoutX="417.0" layoutY="317.0"
+			radius="51.0" stroke="BLACK" strokeType="INSIDE" />
+		<Label layoutX="209.0" layoutY="8.0" text="LeaderBoard">
+			<font>
+				<Font name="Arial Bold" size="29.0" />
+			</font>
+			<textFill>
+				<LinearGradient endX="1.0" endY="1.0">
+					<stops>
+						<Stop color="#d07225" />
+						<Stop color="#dd8e4d" offset="1.0" />
+					</stops>
+				</LinearGradient>
+			</textFill>
+		</Label>
+		<Button layoutX="493.0" layoutY="-1.0" mnemonicParsing="false"
+			fx:id="MainMenu" onAction="#closeLBMenu" prefHeight="33.0"
+			prefWidth="107.0" text="Main Menu" />
+		<Circle fill="#4b690d" layoutX="115.0" layoutY="111.0"
+			radius="51.0" stroke="BLACK" strokeType="INSIDE" />
+		<Circle fill="#0c3d6b" layoutX="234.0" layoutY="111.0"
+			radius="51.0" stroke="BLACK" strokeType="INSIDE" />
+		<Circle fill="#693a0d" layoutX="354.0" layoutY="111.0"
+			radius="51.0" stroke="BLACK" strokeType="INSIDE" />
+		<Circle fill="#600d69" layoutX="476.0" layoutY="110.0"
+			radius="51.0" stroke="BLACK" strokeType="INSIDE" />
+		<Circle fill="#690d0d" layoutX="116.0" layoutY="216.0"
+			radius="51.0" stroke="BLACK" strokeType="INSIDE" />
+		<Circle fill="#370d69" layoutX="354.0" layoutY="216.0"
+			radius="51.0" stroke="BLACK" strokeType="INSIDE" />
+		<Circle fill="#0d1969" layoutX="175.0" layoutY="318.0"
+			radius="51.0" stroke="BLACK" strokeType="INSIDE" />
+		<Circle fill="#695d0d" layoutX="476.0" layoutY="216.0"
+			radius="51.0" stroke="BLACK" strokeType="INSIDE" />
+		<Button layoutX="128.0" layoutY="281.0" mnemonicParsing="false"
+			prefHeight="74.0" prefWidth="95.0"
+			style="-fx-background-color: TRANSPARENT;" text="Level 9"
+			textFill="#fff8f8" onAction="#level9Select" >
+			<font>
+				<Font name="Arial Bold Italic" size="15.0" />
+			</font>
+		</Button>
+		<Button layoutX="67.0" layoutY="75.0" mnemonicParsing="false"
+			prefHeight="74.0" prefWidth="95.0"
+			style="-fx-background-color: TRANSPARENT;" text="Level 1"
+			textFill="WHITE" onAction="#level1Select">
+			<font>
+				<Font name="Arial Bold Italic" size="13.0" />
+			</font>
+		</Button>
+		<Button layoutX="187.0" layoutY="75.0" mnemonicParsing="false"
+			prefHeight="74.0" prefWidth="95.0"
+			style="-fx-background-color: TRANSPARENT;" text="Level 2"
+			textFill="WHITE" onAction="#level2Select">
+			<font>
+				<Font name="Arial Bold Italic" size="14.0" />
+			</font>
+		</Button>
+		<Button layoutX="307.0" layoutY="75.0" mnemonicParsing="false"
+			prefHeight="74.0" prefWidth="95.0"
+			style="-fx-background-color: TRANSPARENT;" text="Level 3"
+			textFill="#fffefe" onAction="#level3Select">
+			<font>
+				<Font name="Arial Bold Italic" size="15.0" />
+			</font>
+		</Button>
+		<Button layoutX="430.0" layoutY="74.0" mnemonicParsing="false"
+			prefHeight="74.0" prefWidth="95.0"
+			style="-fx-background-color: TRANSPARENT;" text="Level 4"
+			textFill="WHITE" onAction="#level4Select">
+			<font>
+				<Font name="Arial Bold Italic" size="15.0" />
+			</font>
+		</Button>
+		<Button layoutX="429.0" layoutY="180.0" mnemonicParsing="false"
+			prefHeight="74.0" prefWidth="95.0"
+			style="-fx-background-color: TRANSPARENT;" text="Level 8"
+			textFill="#f8f5f5" onAction="#level8Select">
+			<font>
+				<Font name="Arial Bold Italic" size="15.0" />
+			</font>
+		</Button>
+		<Button layoutX="308.0" layoutY="179.0" mnemonicParsing="false"
+			prefHeight="75.0" prefWidth="94.0"
+			style="-fx-background-color: TRANSPARENT;" text="Level 7"
+			textFill="WHITE" onAction="#level7Select">
+			<font>
+				<Font name="Arial Bold Italic" size="15.0" />
+			</font>
+		</Button>
+		<Button layoutX="186.0" layoutY="178.0" mnemonicParsing="false"
+			prefHeight="74.0" prefWidth="95.0"
+			style="-fx-background-color: TRANSPARENT;" text="Level 6"
+			textFill="#f8f8f8" onAction="#level6Select">
+			<font>
+				<Font name="Arial Bold Italic" size="15.0" />
+			</font>
+		</Button>
+		<Button layoutX="370.0" layoutY="280.0" mnemonicParsing="false"
+			prefHeight="74.0" prefWidth="95.0"
+			style="-fx-background-color: TRANSPARENT;" text="Level 10"
+			textFill="#fcfcfc" onAction="#level10Select">
+			<font>
+				<Font name="Arial Bold Italic" size="15.0" />
+			</font>
+		</Button>
+		<Button layoutX="67.0" layoutY="178.0" mnemonicParsing="false"
+			prefHeight="74.0" prefWidth="95.0"
+			style="-fx-background-color: TRANSPARENT;" text="Level 5"
+			textFill="#fcfafa" onAction="#level5Select">
+			<font>
+				<Font name="Arial Bold Italic" size="15.0" />
+			</font>
+		</Button>
+	</children>
+</AnchorPane>
