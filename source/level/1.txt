@@ -1,0 +1,54 @@
+35,18
+,,###,,,,,,,,,,,,,,,,,###,,,,,,,,,,
+,##S###################E##########,
+,#  #G -  T#T  ##T  W    K#T#T  X#,
+,# ######### # #######   ## #### #,
+## #,,,#       #   ###  ###    # #,
+#  #####  ###### # ###  #T#    #T#,
+#   = T#         # #T-  # #  # ####
+#   ####  ###  ### ######-# ##   E#
+#OOO#,,#           #K -   #  ######
+#####,,##### ### ######   ##     T#
+,,,,,,###,,#T##E #R#K    ##########
+,,,,,,#T########## #####T#       #,
+####### ###  A T#   W  ###E##### #,
+#T    AAA #  A  #   W   T# ##### #,
+####      #E A K##A#######       ##
+,,,#### ###  A   # #,,,,#T ##### T#
+,,,,,,#H#,#  A  T#T#,,,,###########
+,,,,,,###,##########,,,,,,,,,,,,,,,
+3,1,0,0
+4,6,DOOR,TOKEN,3
+7,2,DOOR,KEY,PURPLE
+21,6,DOOR,KEY,RED
+22,8,DOOR,KEY,GREEN
+25,7,DOOR,KEY,BLUE
+23,1,ENEMY,LINE,DOWN
+26,12,ENEMY,WALL,RIGHT
+33,7,ENEMY,DUMB,NULL
+15,10,ENEMY,SMART,NULL
+11,14,ENEMY,SMART,NULL
+25,2,KEY,RED,NULL
+20,8,KEY,BLUE,NULL
+20,10,KEY,GREEN,NULL
+15,14,KEY,PURPLE,NULL
+6,6,TELEPORTER,1,2
+1,13,TELEPORTER,2,1
+7,11,TELEPORTER,3,4
+18,16,TELEPORTER,4,3
+24,13,TELEPORTER,5,6
+17,2,TELEPORTER,6,5
+20,6,TELEPORTER,7,8
+33,15,TELEPORTER,8,7
+25,15,TELEPORTER,9,10
+33,9,TELEPORTER,10,9
+27,2,TELEPORTER,11,12
+12,10,TELEPORTER,12,11
+12,2,TELEPORTER,13,14
+16,16,TELEPORTER,14,13
+15,12,TELEPORTER,15,16
+24,11,TELEPORTER,16,15
+25,5,TELEPORTER,17,18
+32,5,TELEPORTER,18,17
+29,2,TELEPORTER,19,20
+10,2,TELEPORTER,20,19
